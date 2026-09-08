@@ -1,24 +1,32 @@
 # Radius Health Infrastructure
 
-A Next.js prototype for RadiusOS — a diagnostic infrastructure operating platform for configuring, financing, deploying and operating portable, relocatable and permanent diagnostic facilities.
+A static platform prototype for **RadiusOS** — a diagnostic infrastructure operating platform for configuring, financing, deploying and operating diagnostic capacity globally.
 
-## Core modules
+## What the app demonstrates
 
-- Radius LaunchPad: opportunity assessment and pre-investment business case
-- Radius Configure: CDC/unit product catalogue and modality configurator
-- Radius BuildOS: delivery, manufacture and readiness control
-- Radius Equip: OEM equipment and procurement governance
-- Radius OperateOS: utilisation, uptime and operator performance
-- Radius Capital: lease, asset and investor reporting
-- Radius Intelligence: forecasting, self-pay demand and AI-ready optimisation
+- **Radius Plan**: demand, site, business case and investment logic
+- **Radius Configure**: portable, relocatable and CDC product catalogue
+- **Radius BuildOS**: manufacture, equipment readiness and commissioning control
+- **Radius Equip**: OEM procurement and refurbished equipment route
+- **Radius Ready**: go-live readiness gates across site, design, equipment, digital, operator, regulatory and commercial workstreams
+- **Radius OperateOS**: utilisation, uptime and operator performance
+- **Radius Capital**: leases, asset yield, ESG and investor reporting
+- **Radius Intelligence**: demand forecasting, self-pay visibility and AI-ready optimisation
+
+## Current build
+
+The repository contains a working single-page app in `index.html`. It is designed to run immediately as a static site without a build step.
 
 ## Run locally
 
+Open `index.html` in a browser, or serve the folder with any static server.
+
 ```bash
-npm install
-npm run dev
+python3 -m http.server 3000
 ```
 
-## Deploy
+Then open `http://localhost:3000`.
 
-Import the repository into Vercel or any Next.js-compatible host.
+## Deployment
+
+This repo can be deployed directly to GitHub Pages, Vercel, Netlify or any static hosting provider.
